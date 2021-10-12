@@ -1,0 +1,32 @@
+{
+  "name": "auth-center",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.ts",
+    "codegen": "graphql-codegen --config codegen.yml"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@graphql-codegen/cli": "2.2.0",
+    "@graphql-codegen/typescript": "2.2.2",
+    "@graphql-codegen/typescript-resolvers": "2.3.0",
+    "@types/express": "^4.17.13",
+    "@types/lodash": "^4.14.175",
+    "graphql": "^15.6.1",
+    "nodemon": "^2.0.13",
+    "ts-node": "^10.3.0",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "@graphql-tools/schema": "^8.2.0",
+    "apollo-server-express": "^3.4.0",
+    "express": "^4.17.1",
+    "graphql-import-node": "0.0.4",
+    "lodash": "^4.17.21"
+  }
+}
